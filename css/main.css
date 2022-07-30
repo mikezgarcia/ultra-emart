@@ -72,3 +72,19 @@ body{
 .carousel-item .btn {
     border-color: white !important;
 }
+
+/* Collections CSS */
+.active-filter-btn{
+    background-color: var(--pink) !important;
+    color: white !important;
+    border-color: var(--pink !important);
+}
+
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
