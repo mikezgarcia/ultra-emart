@@ -17,13 +17,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="/css/main.css" />
 
     <title>Ultra E-mart</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar py-4 navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar py-4 navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container">
         <a
           href="index.html"
@@ -89,6 +89,56 @@
       </div>
       <!-- END CONTAINER NAV -->
     </nav>
+
+    <!-- HERO Starts here -->
+    <!-- ---- Hero ---- -->
+    <section
+      id="hero"
+      class="vh-100 carousel slide"
+      data-bs-ride="carousel"
+      style="padding-top: 104px"
+    >
+      <div class="container carousel-inner h-100 d-flex align-items-center">
+        <!-- Start of Carousel Items -->
+        <div class="carousel-item text-center active">
+          <h2 class="text-white">Best Collection</h2>
+          <h1 class="text-white py-2 fw-bold">NEW ARRIVALS</h1>
+          <a href="login.html" class="btn">SHOP NOW</a>
+        </div>
+        <div class="carousel-item text-center">
+          <h2 class="text-white">Best Price & Offer</h2>
+          <h1 class="text-white py-2 fw-bold">NEW SEASON</h1>
+          <a href="login.html" class="btn">BUY NOW</a>
+        </div>
+        <div class="carousel-item text-center">
+          <h2 class="text-white">Best Time To Buy</h2>
+          <h1 class="text-white py-2 fw-bold">SUMMER SALE</h1>
+          <a href="login.html" class="btn">GET IT NOW</a>
+        </div>
+        <!-- End of Carousel Items -->
+      </div>
+      <!-- Start Prev and Next Button on Carousel -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#hero"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#hero"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <!-- End Prev and Next Button on Carousel -->
+    </section>
+    <!-- End Hero Section -->
 
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
