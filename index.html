@@ -5,6 +5,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <!-- Custom CSS -->
@@ -14,13 +23,71 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar py-4 navbar-expand-lg navbar-light bg-white">
       <div class="container">
-        <a href="index.html" class="navbar-brand">
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center justify-content-between order-lg-0"
+        >
           <img src="images/shopping-bag-icon.png" alt="Site Icon" />
           <span id="brand-name">ULTRA</span>
         </a>
+
+        <div class="nav-btns order-lg-2">
+          <button class="btn position-relative" type="button">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <span
+              class="badge position-absolute top-0 bg-primary translate-middle start-100"
+              >5</span
+            >
+          </button>
+          <button class="btn position-relative" type="button">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            <span
+              class="badge position-absolute top-0 bg-primary translate-middle start-100"
+              >2</span
+            >
+          </button>
+          <button class="btn position-relative" type="button">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <!-- end nav-btns -->
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a href="#" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#collection" class="nav-link text-dark">COLLECTION</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#specials" class="nav-link text-dark">SPECIALS</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#blogs" class="nav-link text-dark">BLOGS</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#about-us" class="nav-link text-dark">ABOUT US</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#popular" class="nav-link text-dark">POPULAR</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- End Nav-btns -->
       </div>
+      <!-- END CONTAINER NAV -->
     </nav>
 
     <!-- Bootstrap JS -->
