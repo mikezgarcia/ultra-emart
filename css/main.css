@@ -24,6 +24,16 @@ body{
     border: var(--pink);
 }
 
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 /* Nav Bar */
 .navbar-brand img{
     width: 30px;
