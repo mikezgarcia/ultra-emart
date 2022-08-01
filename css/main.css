@@ -95,3 +95,10 @@ body{
     right: 20px;
 }
 
+.special-img:hover img{
+    transform:scale(1.2);
+
+}
+.special-img img {
+    transition: all 0.3s case;
+}
