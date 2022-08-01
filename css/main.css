@@ -102,3 +102,18 @@ body{
 .special-img img {
     transition: all 0.3s case;
 }
+
+/* Banner */
+#banner{
+    background: url(../images/offer_img.jpg) center/cover;
+}
+#banner .row{
+    min-height: 60vh;
+}
+.banner-content span{
+    font-size: 28px;
+}
+.banner-content h2{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
