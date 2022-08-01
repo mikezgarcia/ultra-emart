@@ -88,3 +88,10 @@ body{
     border-radius: 50%;
 }
 
+
+/* Specials */
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+
