@@ -139,3 +139,10 @@ body{
     background-color: black;
     border-color: black;
 }
+
+
+/* Footer */
+.footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
